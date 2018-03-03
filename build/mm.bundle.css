@@ -10541,11 +10541,15 @@ a.button {
 /**
  * App Branding
  */
+  /**
+   * By santhosh on 21 Feb 2018
+   * To change background color for splash screen
+   */
 .mm-bglogo {
-  background-color: #ff5c00;
+  background-color: #354984;/*#ff5c00;*/
   /* Change this to add a bg image or change color */
-  background: -webkit-radial-gradient(#ff7600, #ff5c00);
-  background: radial-gradient(#ff7600, #ff5c00);
+  background: -webkit-radial-gradient(/*#ff7600*/#88A2F1, /*#ff5c00*/#354984);
+  background: radial-gradient(/*#ff7600*/#88A2F1, /*#ff5c00*/#354984);
   background-repeat: no-repeat;
   background-position: center center;
   position: absolute;
